@@ -77,6 +77,7 @@
 
   p {
     margin: 1rem 0 2rem;
+    width: 80%;
   }
 
   &:after {
@@ -91,7 +92,7 @@
 
     @media screen and (max-width: 992px) {left: 18%; width: 260px}
     @media screen and (max-width: 882px) {left: 15%; width: 250px}
-    @media screen and (max-width: 768px) {left: 75%; width: 240px;}
+    @media screen and (max-width: 768px) {left: 97%; width: 3%;}
   }
 
   @media screen and (max-width: 768px) {padding: 8rem 0}

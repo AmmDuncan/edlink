@@ -192,6 +192,7 @@ HOME PAGE
 }
 .doorstep p {
   margin: 1rem 0 2rem;
+  width: 80%;
 }
 .doorstep:after {
   content: "";
@@ -217,8 +218,8 @@ HOME PAGE
 }
 @media screen and (max-width: 768px) {
   .doorstep:after {
-    left: 75%;
-    width: 240px;
+    left: 97%;
+    width: 3%;
   }
 }
 @media screen and (max-width: 768px) {
