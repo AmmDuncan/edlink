@@ -87,6 +87,14 @@ HOME PAGE
   left: 0;
   bottom: -1rem;
 }
+@media screen and (max-width: 460px) {
+  .section__subheading {
+    font-size: 1.25rem;
+  }
+  .section h2 {
+    font-size: 1.953rem;
+  }
+}
 .section h2 {
   margin: 1.5rem 0;
 }
@@ -291,9 +299,13 @@ HOME PAGE
   margin: auto;
 }
 .services .cards .service-card:hover {
-  background-image: linear-gradient(to top right, #000077, #1E90C9);
-  transform: translateY(-0.5rem);
-  color: white;
+  background: #01014a;
+  color: #fff;
+  transform: translateY(-0.8rem) scale(1.02);
+  z-index: 10;
+}
+.services .cards .service-card:hover:before {
+  box-shadow: 0 1rem 60px rgba(0, 0, 0, 0.22);
 }
 .services .cards .service-card:hover h3 {
   color: var(--secondary);

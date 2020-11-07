@@ -98,6 +98,14 @@ HOME PAGE
     }
   }
 
+  @media screen and (max-width: 460px) {
+    &__subheading {
+      font-size: $font-size-emphasis;
+    }
+    h2 {
+      font-size: $font-size-heading4;
+    }
+  }
 
   h2 {
     margin: 1.5rem 0;

@@ -113,9 +113,14 @@
       }
 
       &:hover {
-        background-image: linear-gradient(to top right, #000077, #1E90C9);
-        transform: translateY(-0.5rem);
-        color: white;
+        background: $color-primary-dark;
+        color: #fff;
+        transform: translateY(-.8rem) scale(1.02);
+        z-index: 10;
+
+        &:before {
+          box-shadow: 0 1rem 60px rgba(0,0,0,0.22);
+        }
 
         h3 {
           color: $color-secondary;
