@@ -183,7 +183,7 @@ HOME PAGE
     max-width: 100%;
   }
   .location__container p {
-    width: 20rem;
+    max-width: 20rem;
   }
   .location__container .location__icon {
     margin-top: -4.5rem;
