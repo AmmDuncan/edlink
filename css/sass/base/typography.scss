@@ -32,6 +32,10 @@ p {
     line-height: 4.5rem;
     font-weight: 700;
 
+    @media screen and (max-width: 400px){
+      font-size: $font-size-heading2;
+    }
+
     .emphasis {
       position: relative;
       display: inline-block;

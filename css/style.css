@@ -32,6 +32,11 @@ p {
   line-height: 4.5rem;
   font-weight: 700;
 }
+@media screen and (max-width: 400px) {
+  .hero h1 {
+    font-size: 3.052rem;
+  }
+}
 .hero h1 .emphasis {
   position: relative;
   display: inline-block;
@@ -97,6 +102,12 @@ HOME PAGE
 .btn-empty:hover, .btn-empty:focus {
   background: var(--primary);
   color: #fff;
+}
+@media screen and (max-width: 460px) {
+  .btn {
+    width: 100%;
+    margin: 1rem 0 0;
+  }
 }
 
 .location {
