@@ -49,9 +49,14 @@ p {
   background: var(--secondary);
   display: inline-block;
   position: absolute;
-  bottom: 8px;
+  bottom: 4px;
   left: 0;
   z-index: -1;
+}
+@media screen and (max-width: 460px) {
+  .hero h1 .emphasis:after {
+    height: 10px;
+  }
 }
 .hero p {
   margin: 1.6rem 0;

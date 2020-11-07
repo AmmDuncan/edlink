@@ -49,9 +49,13 @@ p {
         background: $color-secondary;
         display: inline-block;
         position: absolute;
-        bottom: 8px;
+        bottom: 4px;
         left: 0;
         z-index: -1;
+
+         @media screen and (max-width: 460px){
+           height: 10px;
+         }
       }
     }
   }
