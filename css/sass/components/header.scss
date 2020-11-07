@@ -16,7 +16,9 @@
     }
   }
 
-  //@media only screen and (max-width: 576px) {
-  //  background-position-x: -16rem;
-  //}
+  @media only screen and (max-width: 576px) {
+    &__content {
+      padding: 10rem 0 12rem;
+    }
+  }
 }

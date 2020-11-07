@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #202020;
-  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -29,12 +28,13 @@ p {
 
 .hero h1 {
   font-size: 3.815rem;
-  line-height: 4.5rem;
+  line-height: 1.05;
   font-weight: 700;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
   .hero h1 {
-    font-size: 3.052rem;
+    font-size: 2.441rem;
+    line-height: 1.2;
   }
 }
 .hero h1 .emphasis {
@@ -54,7 +54,7 @@ p {
   z-index: -1;
 }
 .hero p {
-  margin: 1rem 0;
+  margin: 1.6rem 0;
   line-height: 1.75;
 }
 
@@ -81,6 +81,11 @@ HOME PAGE
 }
 .hero__content .cta:first-child {
   margin-right: 0.5rem;
+}
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    padding: 10rem 0 12rem;
+  }
 }
 
 .btn {
