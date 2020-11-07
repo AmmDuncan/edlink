@@ -107,6 +107,18 @@ HOME PAGE
   max-width: 38rem;
   margin: auto;
 }
+@media screen and (max-width: 768px) {
+  .location__container {
+    padding: 1rem;
+    max-width: 100%;
+  }
+  .location__container p {
+    width: 20rem;
+  }
+  .location__container .location__icon {
+    margin-top: -4.5rem;
+  }
+}
 .location__text {
   display: inline-block;
 }
@@ -137,13 +149,20 @@ HOME PAGE
 .doorstep .img-holder {
   display: flex;
   position: relative;
+  align-items: center;
+  overflow-y: visible;
   max-height: 440px;
 }
 .doorstep .img-holder img {
-  margin: auto 2rem auto auto;
+  margin: auto 4rem auto auto;
   height: 100%;
   max-width: 380px;
   width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .doorstep .img-holder img {
+    margin: auto 2rem auto auto;
+  }
 }
 .doorstep h2 {
   margin: 1.5rem 0;
@@ -163,14 +182,25 @@ HOME PAGE
 }
 @media screen and (max-width: 992px) {
   .doorstep:after {
-    left: 15%;
+    left: 18%;
     width: 260px;
+  }
+}
+@media screen and (max-width: 882px) {
+  .doorstep:after {
+    left: 15%;
+    width: 250px;
   }
 }
 @media screen and (max-width: 768px) {
   .doorstep:after {
     left: 75%;
     width: 240px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .doorstep {
+    padding: 8rem 0;
   }
 }
 

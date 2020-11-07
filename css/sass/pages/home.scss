@@ -6,6 +6,18 @@
   &__container {
     max-width: 38rem;
     margin: auto;
+
+    @media screen and (max-width: 768px){
+      padding: 1rem;
+      max-width: 100%;
+      p {
+        width: 20rem;
+      }
+
+      .location__icon {
+         margin-top: -4.5rem;
+      }
+    }
   }
 
    &__text {
@@ -42,15 +54,18 @@
   .img-holder {
     display: flex;
     position: relative;
-    //align-items: center;
+    align-items: center;
+    overflow-y: visible;
     max-height: 440px;
     //justify-content: center;
 
     img {
-      margin: auto 2rem auto auto;
+      margin: auto 4rem auto auto;
       height: 100%;
       max-width: 380px;
       width: 100%;
+
+      @media screen and (max-width: 992px){margin: auto 2rem auto auto;}
     }
 
   }
@@ -73,7 +88,10 @@
     left: 25%;
     z-index: -1;
 
-    @media screen and (max-width: 992px) {left: 15%; width: 260px}
+    @media screen and (max-width: 992px) {left: 18%; width: 260px}
+    @media screen and (max-width: 882px) {left: 15%; width: 250px}
     @media screen and (max-width: 768px) {left: 75%; width: 240px;}
   }
+
+  @media screen and (max-width: 768px) {padding: 8rem 0}
 }
