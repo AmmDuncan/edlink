@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0129c722-f8b3-421e-a1b7-5883f7697c44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <updated>1604745014329</updated>
       <workItem from="1604745020975" duration="813000" />
       <workItem from="1604745877413" duration="17905000" />
-      <workItem from="1604764996716" duration="1395000" />
+      <workItem from="1604764996716" duration="1551000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg image">
       <created>1604765369610</created>
