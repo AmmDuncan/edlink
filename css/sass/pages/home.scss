@@ -33,6 +33,7 @@
 .doorstep {
   padding: 8rem 0 4rem;
   position: relative;
+  overflow-x: hidden;
 
   &__subheading {
     color: $color-primary;
