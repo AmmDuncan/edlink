@@ -1,0 +1,18 @@
+.hero {
+  background: url("../../img/bg-large.png") no-repeat;
+  background-size: cover;
+  min-height: 40rem;
+
+  &__content {
+    padding: 12rem 0;
+    max-width: 32rem;
+
+    .cta {
+      padding-top: 1rem;
+
+      &:first-child {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
