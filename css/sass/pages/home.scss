@@ -1,0 +1,79 @@
+.location {
+  padding: 1rem;
+  background: $color-secondary;
+  margin-top: -1px;
+
+  &__container {
+    max-width: 38rem;
+    margin: auto;
+  }
+
+   &__text {
+     display: inline-block;
+   }
+
+   &__icon {
+     display: inline-block;
+     margin-top: -3.5rem;
+   }
+}
+
+.doorstep {
+  padding: 8rem 0 4rem;
+  position: relative;
+
+  &__subheading {
+    color: $color-primary;
+    position: relative;
+    margin-bottom: 2.5rem;
+
+    &:after {
+      content: '';
+      width: 3rem;
+      height: 4px;
+      background: $color-primary;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      bottom: -1rem;
+    }
+  }
+
+  .img-holder {
+    display: flex;
+    position: relative;
+    //align-items: center;
+    max-height: 440px;
+    //justify-content: center;
+
+    img {
+      margin: auto 2rem auto auto;
+      height: 100%;
+      max-width: 380px;
+      width: 100%;
+    }
+
+  }
+
+  h2 {
+    margin: 1.5rem 0;
+  }
+
+  p {
+    margin: 1rem 0 2rem;
+  }
+
+  &:after {
+    content: '';
+    height: 100%;
+    width: 300px;
+    background-image: url("../img/transparent rect.png");
+    position: absolute;
+    top:0;
+    left: 25%;
+    z-index: -1;
+
+    @media screen and (max-width: 992px) {left: 15%; width: 260px}
+    @media screen and (max-width: 768px) {left: 75%; width: 240px;}
+  }
+}

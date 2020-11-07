@@ -17,9 +17,9 @@
     color: $color-primary;
 
     &:hover, &:focus {
-      //background: $color-primary-light;
-      background: white;
-      color: $color-primary;
+      background: $color-primary;
+      //background: white;
+      color: #fff;
     }
   }
 }

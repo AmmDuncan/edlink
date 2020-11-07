@@ -33,7 +33,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" uri="http://localhost:63342/site/index.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604745014329</updated>
       <workItem from="1604745020975" duration="813000" />
-      <workItem from="1604745877413" duration="4049000" />
+      <workItem from="1604745877413" duration="10955000" />
     </task>
     <servers />
   </component>
@@ -72,17 +72,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="133" y="0" width="1099" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604747418266" />
-    <state x="291" y="90" key="EditFileWatcherDialog" timestamp="1604746350546">
+    <state x="291" y="90" key="EditFileWatcherDialog" timestamp="1604751319164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="291" y="90" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1604746350546" />
+    <state x="291" y="90" key="EditFileWatcherDialog/0.0.1366.728@0.0.1366.728" timestamp="1604751319164" />
     <state x="409" y="42" key="FileChooserDialogImpl" timestamp="1604746472497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="42" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604746472497" />
-    <state x="74" y="0" key="SettingsEditor" timestamp="1604747159251">
+    <state x="74" y="0" key="SettingsEditor" timestamp="1604751321744">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604747159251" />
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604751321744" />
   </component>
 </project>

@@ -1,80 +1,8 @@
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-h1, h2, h3 {
-  font-family: "Oswald", sans-serif;
-}
-
-p {
-  line-height: 1.75;
-}
-
-.btn {
-  font-weight: 500;
-}
-
-.hero h1 {
-  font-size: 3.815rem;
-  line-height: 4.5rem;
-  font-weight: 700;
-}
-.hero h1 .emphasis {
-  position: relative;
+.location__text {
   display: inline-block;
-  z-index: 1;
 }
-.hero h1 .emphasis:after {
-  content: "";
-  width: 100%;
-  height: 16px;
-  background: var(--secondary);
+.location__icon {
   display: inline-block;
-  position: absolute;
-  bottom: 8px;
-  left: 0;
-  z-index: -1;
-}
-.hero p {
-  margin: 1rem 0;
-  line-height: 1.75;
-}
-
-.hero {
-  background: url("../../img/bg-large.png") no-repeat;
-  background-size: cover;
-  min-height: 40rem;
-}
-.hero__content {
-  padding: 12rem 0;
-  max-width: 32rem;
-}
-.hero__content .cta {
-  padding-top: 1rem;
-}
-.hero__content .cta:first-child {
-  margin-right: 0.5rem;
-}
-
-.btn {
-  padding: 1rem 2rem;
-  border-radius: 0;
-}
-.btn-primary {
-  background: var(--primary);
-  border: 1px solid var(--primary);
-  color: white;
-}
-.btn-primary:hover, .btn-primary:focus {
-  background: #01014a;
-}
-.btn-empty {
-  border: 1px solid var(--primary);
-  color: var(--primary);
-}
-.btn-empty:hover, .btn-empty:focus {
-  background: white;
-  color: var(--primary);
 }
 
 /*# sourceMappingURL=style.css.map */

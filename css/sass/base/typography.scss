@@ -1,9 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
+  color: $color-text-dark;
 }
 
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
+  line-height: 1.05;
+}
+
+h2 {
+  font-size: $font-size-heading2;
+  font-weight: 700;
+
+  @media screen and (max-width: 992px) {
+    font-size: $font-size-heading3;
+  }
 }
 
 p {
@@ -16,7 +27,7 @@ p {
 
 .hero {
   h1 {
-    font-size: 3.815rem;
+    font-size: $font-size-heading1;
     line-height: 4.5rem;
     font-weight: 700;
 
@@ -43,4 +54,17 @@ p {
     margin: 1rem 0;
     line-height: 1.75;
   }
+}
+
+
+/*******************************
+HOME PAGE
+********************************/
+.location {
+
+   &__text {
+     display: inline-block;
+     font-family: "Oswald", sans-serif;
+     font-size: $font-size-emphasis;
+   }
 }
