@@ -178,7 +178,7 @@ HOME PAGE
   width: 100%;
   z-index: 100;
   background: transparent;
-  transition: background-color 0.2s ease-out;
+  transition: background-color 0.08s ease-out;
 }
 .navbar-brand img {
   width: 50%;

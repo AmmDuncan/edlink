@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0129c722-f8b3-421e-a1b7-5883f7697c44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_navbar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <workItem from="1604745020975" duration="813000" />
       <workItem from="1604745877413" duration="17905000" />
       <workItem from="1604764996716" duration="2830000" />
-      <workItem from="1605704169458" duration="8035000" />
+      <workItem from="1605704169458" duration="8668000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg image">
       <created>1604765369610</created>
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605710394389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added nav">
+      <created>1605712254035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605712254035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,10 +133,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="133" y="0" width="1099" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1605705031573" />
-    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1605710392357">
+    <state x="228" y="0" key="CommitChangelistDialog2" timestamp="1605712251806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605710392357" />
+    <state x="228" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1605712251806" />
     <state x="291" y="90" key="EditFileWatcherDialog" timestamp="1604751319164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -147,10 +153,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604751321744" />
-    <state x="175" y="16" key="Vcs.Push.Dialog.v2" timestamp="1605710396546">
+    <state x="175" y="16" key="Vcs.Push.Dialog.v2" timestamp="1605712256721">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="175" y="16" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605710396546" />
+    <state x="175" y="16" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605712256721" />
     <state x="460" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605710946101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
