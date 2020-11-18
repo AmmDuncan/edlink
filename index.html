@@ -13,8 +13,24 @@
     <title>Edlink: Home</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
 
-<nav></nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <header class="hero">
     <div class="container">
         <div class="hero__content">
@@ -70,9 +86,9 @@
     </div>
 </section>
 
-<section class="section services">
+<section class="section services"id="services">
     <div class="container">
-        <h3 id="services" class="section__subheading">Our Services</h3>
+        <h3  class="section__subheading">Our Services</h3>
         <h2>WE PROVIDE A HUGE VARIETY <br class="d-none d-sm-block">OF I.T. SERVICES</h2>
         <div class="cards row mx-2 mx-sm-0">
             <div class="service-card">
@@ -102,6 +118,48 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="js/bootstrap.bundle.js"></script>
+<script>
+    const nav = document.querySelector('.navbar')
+    const navlist = document.querySelectorAll('.nav-item')
+    const services = document.querySelector('#services')
+    let services_posY = services.offsetTop - 150
+    let services_nav = document.querySelector('[href="#services"]')
+    let home_nav = document.querySelector('.nav-item')
+    let nav_toggle = document.querySelector('.navbar-toggler')
 
+
+    const clear_nav = () => {
+        navlist.forEach(item => {
+            item.classList.remove('active')
+        })
+    }
+
+    document.addEventListener('scroll', () => {
+        if (scrollY > 100) {
+            nav.classList.add('show-bg')
+        } else {
+            nav.classList.remove('show-bg')
+        }
+
+        if (scrollY >= services_posY) {
+            clear_nav()
+            services_nav.parentNode.classList.add('active')
+        } else {
+            clear_nav()
+            home_nav.classList.add('active')
+        }
+
+    })
+
+    nav_toggle.addEventListener('click',  ()=> {
+        let expanded = nav_toggle.getAttribute('aria-expanded')
+
+        if (expanded === 'false') {
+            nav.classList.add('show-bg-mob')
+        } else {
+            nav.classList.remove('show-bg-mob')
+        }
+    })
+</script>
 </body>
 </html>

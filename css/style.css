@@ -172,6 +172,54 @@ HOME PAGE
   }
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: transparent;
+  transition: background-color 0.2s ease-out;
+}
+@media screen and (min-width: 768px) {
+  .navbar ul {
+    position: absolute;
+    right: 3rem;
+  }
+  .navbar ul li {
+    padding: 0 1rem;
+    position: relative;
+  }
+  .navbar ul li:after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: var(--secondary);
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+    transition: width 0.2s ease-out;
+  }
+  .navbar ul li.active:after {
+    content: "";
+    height: 3px;
+    width: 30%;
+    background: var(--secondary);
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+  }
+}
+.navbar.show-bg {
+  background: rgba(250, 250, 250, 0.98);
+  box-shadow: 0 16px 60px rgba(0, 0, 0, 0.102);
+}
+@media screen and (max-width: 768px) {
+  .navbar.show-bg-mob {
+    background: rgba(250, 250, 250, 0.99);
+  }
+}
+
 .location {
   padding: 1rem;
   background: var(--secondary);
@@ -259,7 +307,7 @@ HOME PAGE
 }
 
 .services {
-  padding: 10rem 0;
+  padding: 8rem 0;
   background: rgba(0, 0, 0, 0.05);
 }
 .services .cards {
