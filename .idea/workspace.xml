@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0129c722-f8b3-421e-a1b7-5883f7697c44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/sass/base/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/base/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/favicon/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +30,15 @@
   </component>
   <component name="JupyterTrust" id="8ab146e3-76fa-4854-927b-ce4d354aca36" />
   <component name="ProjectId" id="1jxU0XVzV4210U15VZEuyAbixcf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,7 +67,8 @@
       <updated>1604745014329</updated>
       <workItem from="1604745020975" duration="813000" />
       <workItem from="1604745877413" duration="17905000" />
-      <workItem from="1604764996716" duration="2209000" />
+      <workItem from="1604764996716" duration="2830000" />
+      <workItem from="1605704169458" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg image">
       <created>1604765369610</created>
@@ -86,6 +98,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="updated bg image" />
     <option name="LAST_COMMIT_MESSAGE" value="updated bg image" />
   </component>
