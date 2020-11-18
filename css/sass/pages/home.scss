@@ -114,17 +114,17 @@
       }
 
       &:hover {
-        background: $color-primary-dark;
-        color: #fff;
-        transform: translateY(-.8rem) scale(1.02);
+        //background: $color-primary-dark;
+        //color: #fff;
+        transform: translateY(-.5rem) scale(1.02);
         z-index: 10;
 
         &:before {
-          box-shadow: 0 1rem 60px rgba(0,0,0,0.22);
+          box-shadow: 0 1rem 60px rgba(0,0,0,0.17);
         }
 
         h3 {
-          color: $color-secondary;
+          //color: $color-secondary;
         }
       }
     }
