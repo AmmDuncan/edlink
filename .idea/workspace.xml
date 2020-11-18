@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0129c722-f8b3-421e-a1b7-5883f7697c44" name="Default Changelist" comment="" />
+    <list default="true" id="0129c722-f8b3-421e-a1b7-5883f7697c44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_navbar.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +64,7 @@
       <workItem from="1604745020975" duration="813000" />
       <workItem from="1604745877413" duration="17905000" />
       <workItem from="1604764996716" duration="2830000" />
-      <workItem from="1605704169458" duration="6215000" />
+      <workItem from="1605704169458" duration="6567000" />
     </task>
     <task id="LOCAL-00001" summary="updated bg image">
       <created>1604765369610</created>

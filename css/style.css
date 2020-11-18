@@ -180,6 +180,9 @@ HOME PAGE
   background: transparent;
   transition: background-color 0.2s ease-out;
 }
+.navbar-brand img {
+  width: 50%;
+}
 @media screen and (min-width: 768px) {
   .navbar ul {
     position: absolute;
