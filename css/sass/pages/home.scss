@@ -130,3 +130,57 @@
     }
   }
 }
+
+.worked-with {
+  padding: 8rem 0;
+  background: linear-gradient(to right, rgba($color-primary-dark, .9), rgba($color-primary-dark, .9)), url('../img/worked-with-bg.png');
+  background-size: cover;
+  color: #fff;
+
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+
+  & > * {
+    .text {
+      text-transform: uppercase;
+      padding: 1rem 2rem;
+      color: rgba(#fff,.6);
+
+
+    }
+  }
+
+  .worked-with__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    background-repeat: none;
+    column-gap: 1rem;
+    row-gap: 1.3rem;
+
+    & > * {
+      background: rgba(#fff, .05);
+      box-shadow: 0 .8rem 1.5rem rgba(0,0,0,0.1);
+      display: grid;
+      place-content: center;
+    }
+  }
+}
+
+.me {
+  font-size: 14px;
+  background: rgb(253, 182, 68);
+  &__name {
+    font-size: 1.2rem;
+    font-family: 'Oswald';
+
+    a {
+      color: $color-text-dark;
+
+      &:hover {
+        color: crimson;
+      }
+    }
+  }
+}
