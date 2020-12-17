@@ -365,7 +365,7 @@ HOME PAGE
 }
 .worked-with {
   padding: 3rem 0;
-  background: linear-gradient(to right, rgba(1, 1, 74, 0.9), rgba(1, 1, 74, 0.9)), url("../img/worked-with-bg.png");
+  background: linear-gradient(to right, rgba(1, 1, 74, 0.85), rgba(1, 1, 74, 0.85)), url("../img/worked-with-bg.png");
   background-size: cover;
   color: #fff;
 }
