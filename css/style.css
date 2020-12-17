@@ -377,6 +377,7 @@ HOME PAGE
   text-transform: uppercase;
   padding: 1rem 2rem;
   color: rgba(255, 255, 255, 0.6);
+  text-align: center;
 }
 .worked-with .worked-with__cards {
   display: grid;
