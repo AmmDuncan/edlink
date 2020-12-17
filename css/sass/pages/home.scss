@@ -139,7 +139,7 @@
 
   h2 {
     text-transform: uppercase;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   & > * {
@@ -163,7 +163,7 @@
     row-gap: 1.3rem;
 
     & > * {
-      background: rgba(#fff, .05);
+      background: rgba(#fff, .02);
       box-shadow: 0 .8rem 1.5rem rgba(0,0,0,0.1);
       display: grid;
       place-content: center;
