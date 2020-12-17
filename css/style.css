@@ -364,20 +364,25 @@ HOME PAGE
   box-shadow: 0 1rem 60px rgba(0, 0, 0, 0.17);
 }
 .worked-with {
-  padding: 8rem 0;
+  padding: 3rem 0;
   background: linear-gradient(to right, rgba(1, 1, 74, 0.9), rgba(1, 1, 74, 0.9)), url("../img/worked-with-bg.png");
   background-size: cover;
   color: #fff;
 }
 .worked-with h2 {
   text-transform: uppercase;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 .worked-with > * .text {
   text-transform: uppercase;
   padding: 1rem 2rem;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .worked-with > * .text {
+    font-size: 12px;
+  }
 }
 .worked-with .worked-with__cards {
   display: grid;
