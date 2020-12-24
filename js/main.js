@@ -86,12 +86,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
     })
 
-    // form.querySelector('input[type="submit"]').addEventListener('click', function(e) {
-    //     e.preventDefault();
+    form.querySelector('input[type="submit"]').addEventListener('click', function(e) {
+        e.preventDefault();
 
-    //     shrink_form();
-    //     show_sent();
-    // })
+        shrink_form();
+        show_sent();
+    })
 
 
 })
