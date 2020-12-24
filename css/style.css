@@ -136,7 +136,7 @@ HOME PAGE
 .hero__content .cta {
   padding-top: 1rem;
 }
-.hero__content .cta:first-child {
+.hero__content .cta > *:first-child {
   margin-right: 0.5rem;
 }
 @media only screen and (max-width: 576px) {
@@ -150,7 +150,7 @@ HOME PAGE
 
 .btn {
   padding: 1rem 2rem;
-  border-radius: 0;
+  border-radius: 0.25rem;
 }
 .btn-primary {
   background: #000077;
@@ -339,6 +339,7 @@ HOME PAGE
   text-align: center;
   position: relative;
   transition: transform 0.2s ease-out;
+  border-radius: 0.5rem;
 }
 .services .cards .service-card:before {
   content: "";
@@ -348,7 +349,8 @@ HOME PAGE
   z-index: -1;
   width: 100%;
   height: 100%;
-  box-shadow: 0 1rem 60px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1rem 40px rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
 }
 .services .cards .service-card__icon {
   margin-top: -6.2rem;
@@ -372,6 +374,7 @@ HOME PAGE
 .worked-with h2 {
   text-transform: uppercase;
   margin-bottom: 2rem;
+  text-align: center;
 }
 .worked-with > * .text {
   text-transform: uppercase;
@@ -411,6 +414,65 @@ HOME PAGE
 }
 .me__name a:hover {
   color: crimson;
+}
+
+.contact-us {
+  padding: 8rem 0;
+  background: rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.contact-us__card {
+  box-shadow: 0 1rem 40px rgba(0, 0, 0, 0.12);
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  max-width: 38rem;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.contact-us__card h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.contact-us__card input[type=text], .contact-us__card textarea {
+  opacity: 0.7;
+}
+.contact-us__card input[type=submit] {
+  text-transform: uppercase;
+}
+.contact-us__card label {
+  margin-bottom: 0.2rem;
+}
+.contact-us__card .submit-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.contact-us img {
+  position: absolute;
+  bottom: 0;
+  opacity: 0.7;
+}
+.contact-us #mail-box {
+  width: 30%;
+  right: 1rem;
+  transform: rotateY(180deg);
+}
+.contact-us #flower1 {
+  width: 5rem;
+  opacity: 0.5;
+}
+.contact-us #flower2 {
+  width: 5rem;
+  left: 30%;
+  bottom: -4rem;
+  opacity: 0.5;
 }
 
 /*# sourceMappingURL=style.css.map */

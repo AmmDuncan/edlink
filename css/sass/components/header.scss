@@ -10,8 +10,8 @@
     .cta {
       padding-top: 1rem;
 
-      &:first-child {
-        margin-right: 0.5rem;
+      &>*:first-child {
+        margin-right: .5rem;
       }
     }
   }
