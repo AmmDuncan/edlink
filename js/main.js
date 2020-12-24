@@ -1,3 +1,8 @@
+// initial email js
+// (function() {
+//     emailjs.init("user_hxFDnavcriPFpin4qMGe4");
+// })()
+
 const nav = document.querySelector('.navbar')
 const navlist = document.querySelectorAll('.nav-item')
 const services = document.querySelector('#services')
@@ -68,15 +73,16 @@ document.addEventListener('DOMContentLoaded', function(){
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
-        emailjs.sendForm('contact_us_service', 'contact_us_form', this)
-        .then(function(){
-            shrink_form();
-            show_sent();
-        }, function(error) {
-            console.log(error);
-            console.log(this.name.value, this.phone.value, this.location.value, this.issue.value, this.description.value)
-            alert('Failed...', error);
-        })
+        // emailjs.sendForm('contact_us_service', 'contact_us_form', this)
+        // .then(function(){
+            
+        //     shrink_form();
+        //     show_sent();
+        // }, function(error) {
+        //     console.log(error);
+        //     console.log(this.name.value, this.phone.value, this.location.value, this.issue.value, this.description.value)
+        //     alert('Failed...', error);
+        // })
 
     })
 

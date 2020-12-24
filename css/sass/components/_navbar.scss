@@ -7,8 +7,9 @@
   transition: background-color 0.08s ease-out;
 
   &-brand {
+    width: 7rem;
     img {
-      width: 50%;
+      width: 100%;
     }
   }
 

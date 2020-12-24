@@ -233,8 +233,11 @@ HOME PAGE
   background: transparent;
   transition: background-color 0.08s ease-out;
 }
+.navbar-brand {
+  width: 7rem;
+}
 .navbar-brand img {
-  width: 50%;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .navbar ul {
@@ -495,7 +498,7 @@ HOME PAGE
   border-radius: 0.5rem;
 }
 .contact-us__card input[type=text], .contact-us__card textarea {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .contact-us__card input[type=submit] {
   text-transform: uppercase;
@@ -525,6 +528,11 @@ HOME PAGE
   transform: rotateY(180deg);
   opacity: 1;
   top: -4rem;
+}
+@media screen and (max-width: 575px) {
+  .contact-us #mail-box {
+    top: -3rem;
+  }
 }
 .contact-us #flower1 {
   width: 20%;
@@ -592,15 +600,21 @@ HOME PAGE
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+@media screen and (max-width: 767px) {
+  .footer__sections {
+    grid-template-columns: 1fr;
+  }
+}
 .footer ul {
   list-style: none;
   padding: 0;
 }
 .footer ul li {
-  padding-top: 0;
+  padding: 0;
 }
 .footer ul li a {
   color: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem 0 0.5rem 0.5rem;
 }
 .footer ul li a:hover {
   color: #fff;
