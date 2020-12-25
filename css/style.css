@@ -555,6 +555,7 @@ HOME PAGE
   position: relative;
   animation: slideup 0.4s 0.25s cubic-bezier(0.53, 0.56, 0.35, 1.1) forwards;
   height: 100%;
+  width: 140px;
   transform: translate(0, 3rem);
 }
 @media screen and (max-width: 470px) {
@@ -569,8 +570,10 @@ HOME PAGE
 }
 .contact-us .sent #correct {
   position: relative;
-  left: -5rem;
-  bottom: -3rem;
+  left: -4rem;
+  bottom: -2rem;
+  width: 112px;
+  height: 112px;
   animation: pop 0.4s 0.5s cubic-bezier(0.53, 0.56, 0.35, 1.1) forwards;
   transform: scale(0);
   opacity: 1;

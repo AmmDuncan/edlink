@@ -293,6 +293,7 @@
       position: relative;
       animation: slideup .4s .25s cubic-bezier(.53,.56,.35,1.1) forwards;
       height: 100%;
+      width: 140px;
       transform: translate(0, 3rem);
       
         @media screen and (max-width:470px) {
@@ -305,8 +306,10 @@
 
     #correct {
       position: relative;
-      left: -5rem;
-      bottom: -3rem;
+      left: -4rem;
+      bottom: -2rem;
+      width: 112px;
+      height: 112px;
       animation: pop .4s .5s cubic-bezier(.53,.56,.35,1.1) forwards;
       // animation: growshrink 1s .6s ease alternate-reverse infinite;
       transform: scale(0);
