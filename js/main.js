@@ -73,25 +73,25 @@ document.addEventListener('DOMContentLoaded', function(){
     form.addEventListener('submit', function(e) {
         e.preventDefault();
 
-        // emailjs.sendForm('contact_us_service', 'contact_us_form', this)
-        // .then(function(){
+        emailjs.sendForm('contact_us_service', 'contact_us_form', this)
+        .then(function(){
             
-        //     shrink_form();
-        //     show_sent();
-        // }, function(error) {
-        //     console.log(error);
-        //     console.log(this.name.value, this.phone.value, this.location.value, this.issue.value, this.description.value)
-        //     alert('Failed...', error);
-        // })
+            shrink_form();
+            show_sent();
+        }, function(error) {
+            console.log(error);
+            console.log(this.name.value, this.phone.value, this.location.value, this.issue.value, this.description.value)
+            alert('Failed...', error);
+        })
 
     })
 
-    form.querySelector('input[type="submit"]').addEventListener('click', function(e) {
-        e.preventDefault();
+    // form.querySelector('input[type="submit"]').addEventListener('click', function(e) {
+    //     e.preventDefault();
 
-        shrink_form();
-        show_sent();
-    })
+    //     shrink_form();
+    //     show_sent();
+    // })
 
 
 })
