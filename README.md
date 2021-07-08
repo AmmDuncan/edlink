@@ -1,3 +1,3 @@
 # edlink
 One-pager landing page for Edlinks System and Consult.
- - Check it out @ https:edlinks.netlify.app
+ - Click [here](https:edlinks.netlify.app) to check it out.
